@@ -1,0 +1,100 @@
+.tool-tip {
+    color: #444;
+    font-size: 12px;
+    cursor: default;
+    border: 1px solid #ffce6f;
+    padding: 8px;
+    position: absolute;
+    width: auto;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    background-color: #FFF7E3;
+    white-space: normal;
+    display: none;
+}
+.tool-tip-bottom {
+    margin-top: 10px;
+}
+.tool-tip-right {
+    margin-left: 10px;
+}
+.tool-tip-left {
+    margin-left: 10px;
+}
+.tool-tip-top {
+    margin-bottom: 10px;
+}
+.arrow {
+    position: absolute;
+    border-width: 8px;
+}
+.arrow s {
+    line-height: 0;
+    position: absolute;
+    border-width: 8px;
+}
+.tool-tip-bottom .arrow {
+    border-color: transparent transparent #ffce6f transparent;
+    border-style: dashed dashed solid dashed;
+    top: -16px;
+    left: 20px;
+}
+
+.tool-tip-bottom .arrow s {
+    border-color: transparent transparent #FFF7E3 transparent;
+    border-style: dashed dashed solid dashed;
+    left: -8px;
+    top: -7px;
+}
+
+.tool-tip-right .arrow {
+    border-color: transparent #ffce6f transparent transparent;
+    border-style: dashed solid dashed dashed;
+    top: 5px;
+    left: -16px;
+}
+
+.tool-tip-right .arrow s {
+    border-color: transparent #FFF7E3 transparent transparent;
+    border-style: dashed solid dashed dashed;
+    top: -8px;
+    left: -7px;
+}
+
+.tool-tip-top .arrow {
+    border-color: #ffce6f transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+    bottom: -16px;
+    left: 20px;
+}
+
+.tool-tip-top .arrow s {
+    border-color: #FFF7E3 transparent transparent transparent;
+    border-style: solid dashed dashed dashed;
+    left: -8px;
+    top: -9px;
+}
+
+.tool-tip-left .arrow {
+    border-color: transparent transparent transparent #ffce6f;
+    border-style: dashed dashed dashed solid;
+    top: 5px;
+    right: -16px;
+}
+
+.tool-tip-left .arrow s {
+    border-color: transparent transparent transparent #FFF7E3;
+    border-style: dashed dashed dashed solid;
+    left: -9px;
+    top: -8px;
+}
+
+
+.tool-tip .tool-tip-content {
+    white-space: normal;
+    word-break: break-all;
+}
+.tool-tip .tool-tip-content a {
+    color: #08c;
+}
